@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ViktorSavchenko/goit-react-hw-01-components/static/css/main.efab1656.css",
+    "main.js": "/ViktorSavchenko/goit-react-hw-01-components/static/js/main.cf772864.js",
+    "index.html": "/ViktorSavchenko/goit-react-hw-01-components/index.html",
+    "main.efab1656.css.map": "/ViktorSavchenko/goit-react-hw-01-components/static/css/main.efab1656.css.map",
+    "main.cf772864.js.map": "/ViktorSavchenko/goit-react-hw-01-components/static/js/main.cf772864.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efab1656.css",
+    "static/js/main.cf772864.js"
+  ]
+}
