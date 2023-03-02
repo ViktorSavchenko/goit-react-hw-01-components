@@ -5,7 +5,7 @@ export function FriendListItem({ typeStatus, name, avatar }) {
   return (
   <FriendItem>
     <StatusIcon typeStatus={typeStatus }></StatusIcon>
-    <FriendAvatar src={avatar } alt={name} width="48" />
+    <FriendAvatar  src={avatar } alt={name} width="48" />
     <FriendName>{name}</FriendName>
   </FriendItem>
   )

@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-
 import { TransTableRaw, TransactionColumn } from './TransactionHistoryItem.styled'
 
 export function TransactionHistoryItem({ type, amount, currency

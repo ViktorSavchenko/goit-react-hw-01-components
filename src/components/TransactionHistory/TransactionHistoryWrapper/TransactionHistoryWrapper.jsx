@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import { TransactionHistoryItem } from '../TransactionHistoryItem/TransactionHistoryItem'
-import { Table, TableHead } from './TransactionContainer.styled'
+import { Table, TableHead } from './TransactionHistoryWrapper.styled'
 
-export function TransactionContainer({ items }) { 
-  return (
-    
-      <Table>
+export function TransactionHistoryWrapper({ items }) { 
+  return (    
+      <Table >
         <TableHead>
           <tr>
             <th>Type</th>
@@ -24,13 +23,13 @@ export function TransactionContainer({ items }) {
   )
 }
 
-TransactionContainer.propTypes = {
+TransactionHistoryWrapper.propTypes = {
   items: PropTypes.arrayOf(
-    PropTypes.exact(({
+    PropTypes.exact({
       id: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
       amount: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired
-    }))
+    })
   )
 }
